@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    
+  .box{
+    margin: 20px;
+    margin-left: 350px;
+    display: grid;
+    grid-template-columns: 320px 198px 153px 50px;
+    grid-template-rows: 414px 130px 155px 20px;
+    gap: 9px;
+    background-color:black;
+    height: 748px;
+    width: 748px;
+    padding: 7px;
+   
+   
+  }
+  .red{
+    background-color: red;
+    
+  }
+  .one{
+    background-color:blue;
+   grid-column: span 3;
+  }
+  .two{
+    background-color: pink;
+    grid-row: span 2;
+  }
+  .three{
+    background-color: yellow;
+    grid-row: span 2;
+    grid-column: span 2;
+  }
+  .four{
+    background-color: greenyellow;
+
+  }
+  .five{
+    background-color: skyblue;
+    grid-row: span 2;
+  }
+  .six{
+    background-color: brown;
+
+  }
+  .seven{
+    background-color: slateblue;
+  }
+  .eight{
+    background-color: rgb(145, 51, 51);
+  }
+  
+body{
+    background-image: url(./Assets/images/images.jpg);
+    background-repeat: no-repeat;
+    background-size: 500vh;
+}
+ 
+  </style>
+</head>
+
+<body>
+  <h1 style="color: aliceblue;">GRID BOX
+  </h1>
+  <div id="boxx" class="box">
+    <div class="red"></div>
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="three"></div>
+    <div class="four"></div>
+    <div class="five"></div>
+    <div class="six"></div>
+    <div class="seven"></div>
+     <div class="eight"></div>
+  </div>
+</body>
+
+</html>

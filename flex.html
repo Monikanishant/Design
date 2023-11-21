@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flex </title>
+ 
+ 
+  <style>
+    .container {
+      color: white;
+      border: 5px solid gold;
+      
+      
+    }
+    body{
+        display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-image: url(./Assets/images/images\ \(1\).jpg);
+      background-repeat: no-repeat;
+      background-size: 500vh;
+  
+    
+     
+    
+    }
+ .container > * {
+  width: 400px;
+ height: 100px;
+ text-align: center;
+ font-size: 40px;
+ align-items: center;
+  
+ 
+ }
+
+
+    .red {background-color: red;}
+    .orange {background-color:orange;}
+    .yellow {background-color: yellow;}
+    .green {background-color: green;}
+    .blue {background-color: blue;}
+    .indigo {background-color:black;}
+    .purple {background-color: purple;}
+  </style>
+</head>
+
+<body>
+    
+  <div class="container">
+    <div class="red">Red</div>
+    <div class="orange">Orange</div>
+    <div class="yellow">Yellow</div>
+    <div class="green">Green</div>
+    <div class="blue">Blue</div>
+    <div class="indigo">Black</div>
+    <div class="purple">Purple</div>
+  </div>
+  
+</body>
